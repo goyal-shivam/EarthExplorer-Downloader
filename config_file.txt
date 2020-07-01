@@ -1,0 +1,4 @@
+USERNAME=abcd
+PASSWORD=abcd
+DOWNLOAD_PATH=/path/to/Downloads
+DATA_DICT_PATH=/path/to/data_dict
