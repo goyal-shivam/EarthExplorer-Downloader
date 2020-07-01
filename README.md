@@ -17,6 +17,8 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
    b) ERROR_LOG - path of file which will be used as error log by the project
    c) RESUME_LOG - path of file where the path and row info of currently downloaded file will be stored
    
+   Files included in this repo contain example of the format in which you have to enter data into these files. Make sure to enter data in the same format as given in the example
+   
 3. Execute the create_data_dict.py file.
 4. Open earthexplorer/spiders directory and run scrapy crawl data_downloader
 
