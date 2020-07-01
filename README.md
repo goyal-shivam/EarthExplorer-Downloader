@@ -6,13 +6,13 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
 2. Setup variable values
    There are 7 variable values which need to be set before execution of the project as follows :-
    
-#####   In config_file.txt :-
+####   In config_file.txt :-
       a) USERNAME - username of account on EarthExplorer website
       b) PASSWORD - password of the account on EarthExplorer website
       c) DOWNLOAD_PATH - full directory path where the downloaded data has to be stored
       d) DATA_DICT_PATH - directory path where dictionary of satellite data will be stored
    
-#####   In custom_functions.py :-
+####   In custom_functions.py :-
       a) CONFIG_FILE_PATH - full path of the config_file.txt above
       b) ERROR_LOG - path of file which will be used as error log by the project
       c) RESUME_LOG - path of file where the path and row info of currently downloaded file will be stored
