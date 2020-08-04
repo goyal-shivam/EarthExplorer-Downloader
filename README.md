@@ -26,4 +26,7 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
     1. This project supports only Python 3.6 or higher versions
     2. If this project is executed using crontab or other automated schedulers, it is advised to use output redirection in order to preserve the output of the project, to check for error in case the program terminates because of some error
     3. The error file in this project is purposefully not cleared before execution, so that in case automatic scheduling is used to execute the project, then we should be able to check the errors made later on.
-    4. **IMPORTANT - There was an update in the website layout of the EarthExplorer website, and therefore for those people who are executing "scrapy crawl data_downloader", this command will not work anymore. Download the revised-downloader.py file from earthexplorer/spiders directory and place it in the same directory in your local project. Now execute "scrapy crawl revised_data_downloader"**
+
+
+### IMPORTANT UPDATE
+There was an update in the website layout of the EarthExplorer website, and therefore for those people who are executing "scrapy crawl data_downloader", this command will not work anymore. Download the revised-downloader.py file from earthexplorer/spiders directory and place it in the same directory in your local project. Now execute "scrapy crawl revised_data_downloader"
