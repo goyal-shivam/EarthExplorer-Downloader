@@ -6,13 +6,13 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
 2. Setup variable values
    There are 7 variable values which need to be set before execution of the project as follows :-
    
-####   In config_file.txt :-
+####   In config_file.txt
       a) USERNAME - username of account on EarthExplorer website
       b) PASSWORD - password of the account on EarthExplorer website
       c) DOWNLOAD_PATH - full directory path where the downloaded data has to be stored
       d) DATA_DICT_PATH - directory path where dictionary of satellite data will be stored
    
-####   In custom_functions.py :-
+####   In custom_functions.py
       a) CONFIG_FILE_PATH - full path of the config_file.txt above
       b) ERROR_LOG - path of file which will be used as error log by the project
       c) RESUME_LOG - path of file where the path and row info of currently downloaded file will be stored
@@ -22,7 +22,7 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
 3. Execute the create_data_dict.py file.
 4. Open earthexplorer/spiders directory and run scrapy crawl revised_data_downloader
 
-### Note:- 
+### Note
     1. This project supports only Python 3.6 or higher versions
     2. If this project is executed using crontab or other automated schedulers, it is advised to use output redirection in order to preserve the output of the project, to check for error in case the program terminates because of some error
     3. The error file in this project is purposefully not cleared before execution, so that in case automatic scheduling is used to execute the project, then we should be able to check the errors made later on.
