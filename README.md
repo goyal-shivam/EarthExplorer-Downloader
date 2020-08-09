@@ -29,4 +29,4 @@ This project is a downloader, which automatically downloads latest Landsat 8 ima
 
 
 ### IMPORTANT UPDATE
-There was an update in the website layout of the EarthExplorer website, and therefore for those people who are executing "scrapy crawl data_downloader", this command will not work anymore. Download the revised-downloader.py file from earthexplorer/spiders directory and place it in the same directory in your local project. Now execute "scrapy crawl revised_data_downloader"
+There was an update in the website layout of the EarthExplorer website. Download the latest version of the program and the issue will be resolved.
